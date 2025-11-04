@@ -49,15 +49,16 @@ def get_f1_results(session_type,location):
     driver.get(website)
 
     #the xpath of the table where the data will be extracted
-    table_xpath = '//*[@id="maincontent"]/div/div/div[3]/div[3]/div/div/div/table'
-    containers = driver.find_elements(by='xpath',value='//table[@class="f1-table f1-table-with-data w-full"]')
-    print(len(containers))
+    table_xpath = '//*[@id="results-table"]/div/table'
+    containers = driver.find_elements(by='xpath',value='//*[@id="results-table"]/div/table/thead')
+    #print(len(containers))
     headers= []
 
     #loop to get the headers of the table
     for container in containers:
         header=(container.find_element(by='xpath',value='.//tr').text)
         headers.append(header)
+        #print(header)
 
     headers= list(map(lambda x:(x.replace('\n',',').split(',')), headers))[0]
 
@@ -98,3 +99,4 @@ def get_f1_results(session_type,location):
 
     driver.quit()
 
+get_f1_results('race-result','united-states')
