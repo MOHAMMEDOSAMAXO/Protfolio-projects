@@ -6,6 +6,7 @@
     - [F1 2021 Season analysis](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/F1_Data_analysis.ipynb)
     - [F1 Headlines web scraping](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/f1_news.py)
     - [F1 2025 Results web scraping](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/f1_results_scraping.py)
+    - [Premier League 2024/2025 season analysis](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/epl_24_25.ipynb)
   - Tableau
     - [EV Analysis Washington](https://public.tableau.com/shared/NNRB29F6D?:display_count=n&:origin=viz_share_link)
   - Power BI
