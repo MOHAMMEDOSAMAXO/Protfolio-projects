@@ -114,7 +114,6 @@ FROM fact_table
 SELECT COUNT(store_key), COUNT(distinct division), COUNT(distinct district), count(distinct upazila)
 FROM store_dim
 
-SELECT * FROM store_dim;
 
 ---GET THE stores with the top 10 revenue 
 
@@ -229,17 +228,3 @@ ON
 t.payment_key = f.payment_key
 GROUP BY trans_type
 
-SELECT count(payment_key)
-from fact_table
-
-SELECT CAST(897319 AS float)/  1000000 *100
-
-
-DECLARE @i INT =0;
-WHILE @i<=10
-BEGIN
-SELECT CONCAT(@i,'&')
-UNION ALL
-SELECT CONCAT(@i,'&')
-SET @i = @i+1;
-END
