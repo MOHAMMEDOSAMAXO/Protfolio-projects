@@ -8,7 +8,7 @@
     - [F1 2025 Results web scraping](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/f1_results_scraping.py)
     - [Premier League 2024/2025 season analysis](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/epl_24_25.ipynb)
   - Tableau
-    - [EV Analysis Washington](https://public.tableau.com/shared/NNRB29F6D?:display_count=n&:origin=viz_share_link)
+    - [EV Analysis Washington](https://public.tableau.com/views/WAEVAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
   - Power BI
     - [Live weather forecast](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/waether%20(1).pdf)
     - [Ecommerce data analysis](https://github.com/MOHAMMEDOSAMAXO/Protfolio-projects/blob/main/ecommerce%20data%20analysis%20(2).pdf)   
